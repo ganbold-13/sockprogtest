@@ -76,5 +76,5 @@ def main():
             except ConnectionResetError:
                 #print(f"timeout 2")
                 return 0
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()

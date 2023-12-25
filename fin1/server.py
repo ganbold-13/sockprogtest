@@ -74,5 +74,5 @@ def start_server():
         except ValueError as ve:
             print(f"ValueError in select: {ve}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     start_server()
